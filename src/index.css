@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* You can define custom CSS variables here if needed */
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+form{
+  display: inline-block;
+}
+.start h1{
+  text-align: center;
+}
+.start .buttons button{
+  border-radius: 10rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: ridge #fffd60 1px;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+}
+.player-turn{
+  border: 3px solid #75b34c;
+  padding: 0.25rem;
+}
